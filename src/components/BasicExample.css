@@ -1,0 +1,19 @@
+.select-item {
+    display: flex;
+    margin: 10px 0 0 0;
+}
+.image-container {
+    margin: 0 10px 0 0;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+.content-name {
+    margin: 0 0 5px 0;
+    font-weight: 600;
+    color: #00bceb
+} 
+.content-description {
+    font-size: 12px;
+}
