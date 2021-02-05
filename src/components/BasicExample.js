@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { loremIpsum } from "lorem-ipsum"
-import { List } from 'react-virtualized'
+import { List, AutoSizer } from 'react-virtualized'
 
 import './BasicExample.css'
 
@@ -64,12 +64,20 @@ const BasicExample = () => {
 
     return (
         <div>
-            <List 
-                width={300}
-                height={300} 
-                rowCount={list.length} 
-                rowHeight={5} 
-                rowRenderer={rowRenderer} />
+            <AutoSizer>
+                {(width, height) => {
+                    return (
+                        <List 
+                            width={300}
+                            height={300}
+                            overscanRowCount = {20} 
+                            rowCount={list.length} 
+                            rowHeight={5} 
+                            rowRenderer={rowRenderer}
+                        />
+                    )
+                }}
+            </AutoSizer>
         </div>
     )
 }

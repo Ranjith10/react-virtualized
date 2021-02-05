@@ -17,3 +17,6 @@
 .content-description {
     font-size: 12px;
 }
+.list {
+    height: calc(100vh - 210px)
+}
