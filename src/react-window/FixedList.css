@@ -1,0 +1,10 @@
+.select-container {
+    display: flex;
+    flex-direction: row;
+}
+.select-container > div {
+    width: 50%;
+}
+.react-window-container {
+    width: 600px !important;
+}

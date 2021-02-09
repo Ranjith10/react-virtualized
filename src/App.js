@@ -1,11 +1,13 @@
-import BasicExample from "./components/BasicExample";
-import ReactVirtualizedSelect from "./components/ReactVirtualizedSelect";
+import BasicExample from "./react-virtualized/BasicExample";
+import ReactVirtualizedSelect from "./react-virtualized/ReactVirtualizedSelect";
+import FixedList from "./react-window/FixedList";
 
 const App = () => {
   return (
     <div className="App">
-      {/* <BasicExample /> */}
-      <ReactVirtualizedSelect />
+      {/* <BasicExample />
+      <ReactVirtualizedSelect /> */}
+      <FixedList />
     </div>
   );
 }
