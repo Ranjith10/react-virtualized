@@ -1,3 +1,17 @@
 .Select-input>input {
     width: 200px;
 }
+.Select-control {
+    width: 100px;
+    display: flex;
+}
+.Select-multi-value-wrapper>.Select-input>input {
+    width: 200px !important;
+}
+.Select-clear-zone {
+    cursor: pointer;
+}
+.Select-menu-outer {
+    width: 250px;
+    background-color: lightcyan;
+}
