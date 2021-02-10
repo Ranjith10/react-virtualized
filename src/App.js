@@ -1,6 +1,7 @@
 import BasicExample from "./react-virtualized/BasicExample";
 import ReactVirtualizedSelect from "./react-virtualized/ReactVirtualizedSelect";
 import FixedList from "./react-window/FixedList";
+import ReactWindowMultiSelect from "./react-window/ReactWindowMultiSelect";
 import ReactWindowSelect from "./react-window/ReactWindowSelect";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <ReactVirtualizedSelect /> 
       <FixedList />*/}
       <ReactWindowSelect />
+      <ReactWindowMultiSelect />
     </div>
   );
 }
