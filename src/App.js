@@ -1,3 +1,4 @@
+import ReactPicky from "./react-picky/ReactPicky";
 import BasicExample from "./react-virtualized/BasicExample";
 import ReactVirtualizedSelect from "./react-virtualized/ReactVirtualizedSelect";
 import FixedList from "./react-window/FixedList";
@@ -12,6 +13,7 @@ const App = () => {
       <FixedList />*/}
       <ReactWindowSelect />
       <ReactWindowMultiSelect />
+      <ReactPicky />
     </div>
   );
 }
